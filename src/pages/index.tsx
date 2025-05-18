@@ -6,28 +6,9 @@ import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import HeroSection from "../components/home/hero";
+import FeaturesSection from "../components/home/features";
+import CallToActionSection from "../components/home/calltoaction";
 
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
@@ -36,8 +17,9 @@ export default function Home(): ReactNode {
       title={`Home`}
       description="Conveyor CI is a Software framework for building Custom CI/CD Pipelines"
     >
-      <HomepageHeader />
-      <main></main>
+      <HeroSection />
+      <FeaturesSection />
+      <CallToActionSection />
     </Layout>
   );
 }
