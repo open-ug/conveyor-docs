@@ -86,12 +86,12 @@ const config: Config = {
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
+          position: "right",
+          label: "Documentation",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "right" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/open-ug/conveyor",
           label: "GitHub",
           position: "right",
         },
