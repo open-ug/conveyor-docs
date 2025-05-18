@@ -22,7 +22,7 @@ const CallToActionSection = () => {
       description: "Comprehensive guides and API references to get you started",
       icon: <FaRocket />,
       buttonText: "View Documentation",
-      buttonAction: "/docs",
+      buttonAction: "/docs/introduction",
       primary: true,
     },
     {
@@ -32,7 +32,7 @@ const CallToActionSection = () => {
         "Check out our GitHub repository and contribute to the project",
       icon: <FaGithub />,
       buttonText: "Visit GitHub",
-      buttonAction: "https://github.com/conveyor-ci/conveyor",
+      buttonAction: "https://github.com/open-ug/conveyor",
       primary: false,
     },
     {
@@ -161,6 +161,8 @@ const CallToActionSection = () => {
                 color={option.primary ? "neutral" : "primary"}
                 fullWidth
                 size="lg"
+                component="a"
+                href={option.buttonAction}
                 endDecorator={<FaArrowRight />}
                 sx={{
                   mt: "auto",
@@ -184,7 +186,7 @@ const CallToActionSection = () => {
 
         <Divider sx={{ my: 8 }} />
 
-        <Stack
+        {/*<Stack
           direction={{ xs: "column", md: "row" }}
           spacing={3}
           alignItems="center"
@@ -215,7 +217,7 @@ const CallToActionSection = () => {
           >
             Contact Sales
           </Button>
-        </Stack>
+        </Stack>*/}
       </Container>
     </Box>
   );
