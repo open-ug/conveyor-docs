@@ -10,7 +10,7 @@ A Resource is the core object in a Conveyor CI Platform that defines the pipelin
 
 By default, Conveyor CI does not come with any Resource in its API. You have to install them into Conveyor CI. To install a Resource, you must define a Resource Definetion. A Resource defenition is method of defining the Schema of a Resource. It determines how the Resouce will be defined, what properties it will have and also the validation schema for the resource.
 
-Resource definitions are created by following the [Open API Specification](https://swagger.io/specification/). They can be defined either in Yaml or JSON syntax and saved into the Conveyor CI API. Resource Definitions have only two mandatory requirementsa and these are:
+Resource definitions are created by following the [Open API Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md). They can be defined either in Yaml or JSON syntax and saved into the Conveyor CI API. Resource Definitions have only two mandatory requirementsa and these are:
 
 An example of a Resource definition in yaml.
 
