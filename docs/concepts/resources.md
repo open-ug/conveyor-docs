@@ -21,29 +21,26 @@ schema:
   openAPIV3Schema:
     type: object
     properties:
-      spec:
+      pipeline:
         type: object
         properties:
-          pipeline:
-            type: object
-            properties:
-              name:
-                type: string
-              stages:
-                type: array
-                items:
-                  type: string
-              distributed:
-                type: boolean
-              runners:
-                type: array
-                items:
-                  type: string
-            required:
-              - name
-              - stages
-              - distributed
-              - runners
+          name:
+            type: string
+          stages:
+            type: array
+            items:
+              type: string
+          distributed:
+            type: boolean
+          runners:
+            type: array
+            items:
+              type: string
+        required:
+          - name
+          - stages
+          - distributed
+          - runners
 ```
 
 This above Resouce Definition defines a Resource named `application` and it can be used like this below.

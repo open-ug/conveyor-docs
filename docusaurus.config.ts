@@ -139,7 +139,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Open UG & Cranom Technologies Limited.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Open UG`,
     },
     prism: {
       theme: prismThemes.github,
