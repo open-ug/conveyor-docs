@@ -15,37 +15,36 @@ Resource definitions are created by following the [Open API Specification](https
 An example of a Resource definition in yaml.
 
 ```yml
-name: application
+name: workflow
 version: 0.0.1
 schema:
-  openAPIV3Schema:
+  pipeline:
     type: object
     properties:
-      pipeline:
-        type: object
-        properties:
-          name:
-            type: string
-          stages:
-            type: array
-            items:
-              type: string
-          distributed:
-            type: boolean
-          runners:
-            type: array
-            items:
-              type: string
-        required:
-          - name
-          - stages
-          - distributed
-          - runners
+      name:
+        type: string
+      stages:
+        type: array
+        items:
+          type: string
+      distributed:
+        type: boolean
+      runners:
+        type: array
+        items:
+          type: string
+    required:
+      - name
+      - stages
+      - distributed
+      - runners
 ```
 
 This above Resouce Definition defines a Resource named `application` and it can be used like this below.
 
 ```yml
+name: example-resource
+resource: workflow
 pipeline:
   name: build-and-deploy
     stages:

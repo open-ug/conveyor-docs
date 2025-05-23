@@ -7,7 +7,7 @@ tags: [conveyor-ci, devops]
 
 ![](https://fulcrum.rocks/blog/wp-content/uploads/2022/04/ci-cd-pipeline-7.png)
 
-A brief introduction on Conveyor CI. Its is a Software framework fdesigned to simplify the development of scalable and reliable CI/CD platforms by eliminating common pain points that a team ight to run into inorder to build a Scalable, reliable CI/CD Platform. It provides a simplified  streamlined, developer-friendly development paradigm for building robust custon CI/CD Tools.
+A brief introduction on [Conveyor CI](https://conveyor.open.ug). Its is a Software framework fdesigned to simplify the development of scalable and reliable CI/CD platforms by eliminating common pain points that a team ight to run into inorder to build a Scalable, reliable CI/CD Platform. It provides a simplified  streamlined, developer-friendly development paradigm for building robust custon CI/CD Tools.
 
 <!-- truncate -->
 
