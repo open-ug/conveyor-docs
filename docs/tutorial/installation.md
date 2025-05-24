@@ -43,13 +43,13 @@ This will start containers that for the Conveyor CI API Server, ETCD Data Store,
 
 Next we shall setup the development projects by downloading the software libraries. In this tutorial we shall use a Go project and use the Golang SDKs. Within a new directory, create your Go Project.
 
-```sh
+```bash
 go mod init example-project
 ```
 
 Then install the Go SDKs
 
-```sh
+```bash
 go get conveyor.open.ug
 
 # OR
