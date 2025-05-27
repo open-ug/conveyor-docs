@@ -47,13 +47,13 @@ name: example-resource
 resource: workflow
 pipeline:
   name: build-and-deploy
-    stages:
-      - test
-      - build
-      - deploy
-    distributed: true
-    runners:
-      - cloud-native
+  stages:
+    - test
+    - build
+    - deploy
+  distributed: true
+  runners:
+    - cloud-native
 ```
 
 A Resouce Definition have three mandatory fields.

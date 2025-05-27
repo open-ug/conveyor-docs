@@ -22,7 +22,7 @@ import (
 
  runtime "github.com/open-ug/conveyor/pkg/driver-runtime"
  dLogger "github.com/open-ug/conveyor/pkg/driver-runtime/log"
- cTypes "github.com/open-ug/conveyor/pkg/types"
+ types "github.com/open-ug/conveyor/pkg/types"
 )
 
 // Listen for messages from the runtime
