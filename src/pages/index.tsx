@@ -14,7 +14,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Home`}
+      title={`The Software framework for building Cloud Native CI/CD Platforms`}
       description="Conveyor CI is a Software framework for building Custom CI/CD Pipelines"
     >
       <HeroSection />
