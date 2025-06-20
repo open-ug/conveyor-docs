@@ -200,6 +200,7 @@ NATS AND JETSTREAM RESOURCES
 
 - [NATS Documentation](https://docs.nats.io/)
 - [JetStream Consumers Youtube Video](https://youtu.be/334XuMma1fk?si=-0K7lhFuKDwgj5jj)
+- [NATS Python Client Library](https://github.com/nats-io/nats.py)
 
 CONVEYOR GO PACKAGE AND DRIVER RUNTIME
 
