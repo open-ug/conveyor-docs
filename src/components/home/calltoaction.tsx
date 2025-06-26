@@ -41,7 +41,7 @@ const CallToActionSection = () => {
       description: "Connect with other developers using Conveyor CI",
       icon: <FaSlack />,
       buttonText: "Join Slack",
-      buttonAction: "/community",
+      buttonAction: "https://open-ug.slack.com/archives/C0931KV7TEF",
       primary: false,
     },
   ];
