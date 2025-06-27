@@ -27,7 +27,7 @@ June has been a productive month for the Conveyor CI project! Here’s a quick s
 
 - **Slack Channel for Community Engagement**  
   We’ve opened a dedicated Slack channel for external communication and collaboration.  
-  [Join the Conversation](https://app.slack.com/client/T093MTK9TR7/C0931KV7TEF)
+  [Join the Conversation](https://open-ug.slack.com/join/shared_invite/zt-382rwaqzr-aeB5ES_S94fYVPKCGHW~Qg)
 
 - **Helm Charts in Progress**  
   Drafted Helm Charts to enable Kubernetes deployment support for Conveyor CI.
