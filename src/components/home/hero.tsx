@@ -77,6 +77,8 @@ const HeroSection = () => {
                 <Button
                   variant="solid"
                   size="lg"
+                  component="a"
+                  href="/docs/tutorial/installation"
                   color="primary"
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
@@ -84,6 +86,11 @@ const HeroSection = () => {
                     px: 4,
                     py: 1.5,
                     fontWeight: 600,
+                    textDecoration: "none",
+                    "&:hover": {
+                      textDecoration: "none",
+                      color: "white",
+                    },
                     transition: "all 0.2s",
                     transform: isHovered ? "translateY(-3px)" : "none",
                     boxShadow: isHovered ? "md" : "sm",
@@ -94,16 +101,21 @@ const HeroSection = () => {
                 <Button
                   variant="outlined"
                   size="lg"
+                  component="a"
+                  href="/docs/introduction"
                   color="neutral"
                   sx={{
                     px: 4,
                     py: 1.5,
                     fontWeight: 600,
+                    textDecoration: "none",
                     color: "white",
                     borderColor: "rgba(255,255,255,0.4)",
                     "&:hover": {
                       borderColor: "white",
                       backgroundColor: "rgba(255,255,255,0.04)",
+                      textDecoration: "none",
+                      color: "white",
                     },
                   }}
                 >
