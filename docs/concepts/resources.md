@@ -4,6 +4,13 @@ sidebar_position: 1
 
 # Resources
 
+:::danger
+
+Documentation still in early stages
+
+:::
+
+
 A Resource is the core object in a Conveyor CI Platform that defines the pipeline configuration. It tells the CI Driver what to do, when to do it and how to do it. A comparison would be the Workflow file in the GitHub Actions.
 
 ## Resource Definitions

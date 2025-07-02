@@ -38,5 +38,6 @@ June has been a productive month for the Conveyor CI project! Here’s a quick s
 - Add **API Server metrics** to the Conveyor CI API Server.
 - Finalize and publish the **complete project roadmap**.
 - Start building a **detailed documentation site** to support users and contributors.
+- Start building Helm Charts
 
 Stay tuned for more updates, and feel free to get involved via [GitHub](https://github.com/open-ug/conveyor) or our Slack community!
